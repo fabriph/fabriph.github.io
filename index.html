@@ -2,25 +2,27 @@
 <html lang="en-us">
 
 <head>
-    <link rel="manifest" href="/app.webmanifest">
-    <meta name="theme-color" content="#f00" />
+	<link rel="manifest" href="/app.webmanifest">
+	<meta name="theme-color" content="#f00" />
 
-    <title>Your Test</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Your Test</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/app.css" />
 
-    <link rel="shortcut icon" href="img/icons/icon-96x96.png">
+	<link rel="shortcut icon" href="img/icons/icon-96x96.png">
 
 	<script>
 	  if ('serviceWorker' in navigator) {
 	      window.addEventListener('load', function() {
-	        navigator.serviceWorker.register('/service-worker.js');
+		navigator.serviceWorker.register('/service-worker.js');
 	      }
 	  );
 	}
+	</script>
+	<script src="hello_pwa.js">
 	</script>
 </head>
 
